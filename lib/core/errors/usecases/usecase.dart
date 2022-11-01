@@ -8,3 +8,8 @@ abstract class Usecase<Type, Params> {
   // inside which we will write all the required parameters for the usecase
   Future<Either<Failure, Type>> call(Params params);
 }
+
+// in case we need no parameters
+class NoParams {
+  const NoParams();
+}
