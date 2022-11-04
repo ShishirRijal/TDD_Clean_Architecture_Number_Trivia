@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 
-import '../failures.dart';
+import '../errors/failures.dart';
 
 abstract class Usecase<Type, Params> {
   // params here is a class which contains all the parameters required for the usecase

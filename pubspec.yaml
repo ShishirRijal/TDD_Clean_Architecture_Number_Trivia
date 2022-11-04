@@ -27,11 +27,11 @@ dependencies:
   http: ^0.13.5
   connectivity: ^3.0.6
   mocktail: ^0.3.0
+  internet_connection_checker: ^1.0.0+1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: ^5.3.2
 
   flutter_lints: ^2.0.0
 
